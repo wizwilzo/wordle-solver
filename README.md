@@ -20,8 +20,7 @@ where
 
 ## Interacting With the Solver
 
-Interaction occurs in `solver.c`:
-It can be called in one of two different ways:
+Interaction occurs in `solver.c`, it can be called in one of two different ways:
 
 ```
 $ ./solver motif
