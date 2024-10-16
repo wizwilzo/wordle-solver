@@ -12,7 +12,7 @@ Essentially, at each step in our solver we select the word that maximizes:
   score(word | vocabulary) = sum(score(letter | vocabulary), for unique letters in word)
 ```
 
-where
+where:
 
 ```
   score(letter | vocabulary) = # words in vocabulary that contain letter
