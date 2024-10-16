@@ -1,11 +1,11 @@
 
-# introduction
+# Introduction
 
 A wordle solver in C for the popular word-guessing game wordle.
 
 ![guessing "irate" (which is recommended starting word based on our heuristic) on a recent wordle](irate.png "guessing irate")
 
-We make a simple heuristic score picking the word that contains the letters that occur most commonly in the remaining possible vocabulary.
+Our heuristic picks the word containing the letters occurring most commonly in the remaining possible vocabulary.
 
 Essentially, at each step in our solver we select the word that maximizes:
 ```
@@ -18,7 +18,7 @@ where
   score(letter | vocabulary) = # words in vocabulary that contain letter
 ```
 
-## interacting with the solver
+## Interacting With the Solver
 
 Interaction occurs in `solver.c`:
 It can be called in one of two different ways:
